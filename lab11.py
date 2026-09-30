@@ -35,7 +35,7 @@ else:
 print(f"Urządzenie: {device}")
 
 # Flagi pozwalające uruchamiać zadania pojedynczo (domyślnie wszystkie).
-RUN_TASK1 = True   # adversarial attack
+RUN_TASK1 = False   # adversarial attack
 RUN_TASK2 = True   # klasyfikator + lokalizator piwa
 RUN_TASK3 = True   # agent RL (Breakout)
 
